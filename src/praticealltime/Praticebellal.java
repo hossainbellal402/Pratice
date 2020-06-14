@@ -12,7 +12,7 @@ public class Praticebellal {
 	System.setProperty( "webdriver.chrome.driver", "C:\\Users\\bella\\Desktop\\Github jar\\drivers\\chromedriver.exe");	
 		WebDriver driver=new ChromeDriver();
 		 driver.get("https://www.google.com/");
-
+driver.manage().window().maximize();
 	}
 
 }
